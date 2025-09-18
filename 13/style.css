@@ -1,0 +1,144 @@
+.caixa1 {
+  display: block;
+  background: blue;
+}
+
+.caixa2 {
+  display: inline;
+  width: 700px;
+  height: 700px;
+  background: coral;
+}
+
+.caixa3 {
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  background: green;
+}
+
+/* Exercício 1 - Criando Menu */
+.MENU {
+  background: yellow;
+  height: 50px;
+  width: 500px;
+  padding: 20px;
+  border: 2px solid rgb(100, 7, 77);
+}
+
+.botao {
+  display: inline-block;
+  width: 90px;
+  height: 20px;
+  background: gray;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Exercício 2 */
+.caixa {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  color: aliceblue;
+  text-align: center;
+  line-height: 50px;
+}
+
+.static {
+  background: gray;
+  position: static;
+}
+.relative {
+  background: blue;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.absolute {
+  background: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.fixed {
+  background: green;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.sticky {
+  background: orange;
+  position: sticky;
+  top: 0;
+}
+
+/* Exercício 3 */
+
+.cabecalho nav {
+  background-color: blanchedalmond;
+  display: flexbox;
+  position: fixed;
+  width: 1200;
+  height: 50;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Exemplo Flexbox */
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 500px;
+  background: red;
+}
+
+.item {
+  background: blue;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 50px 100px 150px;
+  grid-template-rows: auto auto;
+  background: gray;
+  padding: 10px;
+}
+
+.item {
+  background: blue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+body {
+  background: blue;
+  font-size: 18px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  body {
+    background: pink;
+    font-size: 14px;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 300px) {
+  body {
+    background: green;
+    font-size: 14px;
+  }
+}

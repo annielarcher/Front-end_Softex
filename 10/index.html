@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 10</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Aula 10 - Javascript</h1>
+    <ul>
+      <li>if, else if, else</li>
+      <li>Switch case</li>
+      <li>Loop</li>
+      <li>loop com while</li>
+      <li>Do...while</li>
+    </ul>
+    <script>
+      let temperatura = 30;
+      if (temperatura <= 10) {
+        console.log("Muito frio");
+      } else if (temperatura > 10 && temperatura < 25) {
+        console.log("Clima agradável");
+      } else {
+        console.log("Está calor!");
+      }
+
+      let cor = "Amarelo";
+      switch (cor) {
+        case "vermelho":
+          console.log("Pare!");
+          break;
+        case "amarelo":
+          console.log("Atenção!");
+          break;
+        case "verde":
+          console.log("Siga!");
+          break;
+        default:
+          console.log("Cor inválida");
+      }
+
+      let estacao = 2;
+      switch (estacao) {
+        case 1:
+          console.log("Verão");
+          break;
+        case 2:
+          console.log("Outono");
+          break;
+        case 3:
+          console.log("Inverno");
+          break;
+        case 4:
+          console.log("Primavera");
+      }
+
+      for (let i = 1; i <= 5; i++) {
+        console.log(`Número: ${i}`);
+      }
+
+      let i = 1;
+      while (i <= 5) {
+        console.log(`Número: ${i}`);
+        i++;
+      }
+
+      let y = 10;
+      while (y > 0) {
+        console.log(`Número: ${y}`);
+        y--;
+      }
+
+      let senha = "1234";
+      let tentativa = "";
+
+      while (tentativa !== senha) {
+        tentativa = prompt("Digite a senha:");
+      }
+      console.log("Acesso Liberado!");
+    </script>
+  </body>
+</html>

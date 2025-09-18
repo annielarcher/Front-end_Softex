@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: azure;
+}
+
+ul {
+  font-style: italic;
+  background-color: yellow;
+  padding: auto;
+}
