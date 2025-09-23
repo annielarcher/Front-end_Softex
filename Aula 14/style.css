@@ -1,0 +1,38 @@
+h1 {
+  color: #3498db;
+  font-family: "Arial", sans-serif;
+}
+
+button {
+  background: #3498db;
+  border: 2px solid #3498db;
+}
+
+button {
+  color: white;
+}
+button:hover {
+  background: #56cf27;
+}
+button.ativo {
+  background: green;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background: gray;
+}
+
+button {
+  border-radius: 10px;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */

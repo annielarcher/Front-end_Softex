@@ -1,0 +1,7 @@
+@use "cores";
+@use "mixins";
+
+body {
+  background: cores.$cor-primaria;
+  @include mixins.centralizar;
+}
